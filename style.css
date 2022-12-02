@@ -107,6 +107,33 @@ body {
     color: #1F2937;
 }
 
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px;
+}
+
+.blue {
+    width: 800px;
+    height: 100px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    padding: 20px 80px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.copyright {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
     color: #E5E7EB;
@@ -133,6 +160,13 @@ h3 {
     font-size: 28px;
     font-weight: 900;
 }
+
+h4 {
+    color: white;
+    font-size: 18px;
+    margin: 0;
+}
+
 p {
     color: #E5E7EB;
     margin: 10px 0;
@@ -146,4 +180,14 @@ p {
     font-size: 16px;
     font-weight: 800;
     margin-top: 10px;
+}
+
+.blue .signup-but {
+    border-color: white;
+    margin: 0;
+}
+
+.text p {
+    font-size: 14px;
+    margin: 3px 0 0 0;
 }
